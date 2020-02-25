@@ -1,4 +1,5 @@
-# taxonomyzoo
+# Awesome taxonomyzoo list
+
 A zoo of taxonomies for labelling domain names (as in [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) (and IP addresses)
 
 
