@@ -1,6 +1,6 @@
 # Awesome taxonomyzoo list
 
-A zoo of taxonomies for labelling domain names (as in [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) (and IP addresses)
+A zoo of taxonomies for labelling domain names (as in [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) and IP addresses.
 
 
 This repository collects and documents known taxonomies in the field of IT-Security ("Cyber") as well as internet wide research.
@@ -25,7 +25,7 @@ Naturally, this list will never be complete nor exhaustive. Therefore, we encour
 # Rules for labelling objects
 
 1. Domain names or IP addresses MAY be labelled by one or more taxonomies.
-2. A taxonomy is always represented as a triplet prefix:tag=value. See the [MISP taxonomies](https://github.com/MISP/misp-taxonomies) explanation page
+2. A taxonomy is always represented as a triplet ``prefix:tag=value``. See the [MISP taxonomies](https://github.com/MISP/misp-taxonomies) explanation page
 3. A taxonomy MUST be representable in the [machine-tags](https://github.com/MISP/misp-taxonomies) readable format
 4. a taxonomy which is to be considered useful for DNS names or IP addresses SHOULD be stable. A label assignment SHOULD be stable and not change frequently (e.g. once per quarter or year)
 5. There are two ways for assigning labels: a) manually or b) automatically. The latter implies that a taxonomy MUST only be used if the assignment of labels can be done by an algorithm with high success rates (and low false positive rates). Otherwise we consider a taxonomy *non-actionable*.
