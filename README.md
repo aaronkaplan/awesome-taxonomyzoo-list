@@ -31,6 +31,14 @@ Naturally, this list will never be complete nor exhaustive. Therefore, we encour
 5. There are two ways for assigning labels: a) manually or b) automatically. The latter implies that a taxonomy MUST only be used if the assignment of labels can be done by an algorithm with high success rates (and low false positive rates). Otherwise we consider a taxonomy *non-actionable*.
 
 
+# Hierarchies for taxonomies
+
+Sometimes taxonomy A is an abstraction of taxonomy B. Example: B==list of industry sectors, A=={ domain represents a private web page or it represents a company}. Obviously B is a sub-specialisation of A.
+
+How to deal with these hierarchies?
+We propose to arrange them in a tree.
+
+
   
 # The list
 
