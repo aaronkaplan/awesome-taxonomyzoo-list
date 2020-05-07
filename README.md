@@ -1,6 +1,6 @@
 # Awesome taxonomyzoo list
 
-A zoo of taxonomies for labelling domain names (as in [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) and IP addresses.
+**A zoo of taxonomies for labelling domain names (as in [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)) and IP addresses.**
 
 
 This repository collects and documents known taxonomies in the field of IT-Security ("Cyber") as well as known taxonomies for internet  research.
