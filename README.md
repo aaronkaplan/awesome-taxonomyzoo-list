@@ -44,8 +44,15 @@ We decided for now to not represent these hierarchies in order to keep it simple
   
 # The list
 
+We acknowledge the great work done by the MISP project by already creating a [large list of taxonomies](https://github.com/MISP/misp-taxonomies/). However, this list also deals with other taxonomies, which are not relevant to IP addresses or domain names. 
+We only focus on IP addresses or domain names. Hence, we extracted the relevant MISP taxonomies (and list them here) and add new taxonomies which are driven by internet researchers (not necessarily infosec).
+
+
+
 | Name               | Description    | actionable? | automatic classification  |  stable?        | Link           | 
 |:-------------------|:---------------|:-----------:|:--------------------------|:----------------|:---------------|
+| RRDG low content domain| A list of tags for labeling "low content" websites (f.ex. default apache web page) | Y | Y | partly | https://rrdg.centr.org/projects/current-projects/|
 | DHS CIIP           | Dept. of Homeland Security Critical Infrastructure Sectors list | ? | | Y | https://github.com/MISP/misp-taxonomies/blob/master/dhs-ciip-sectors/machinetag.json |
 | RSIT               | Reference Security Incident Taxonomy | partly | | partly | https://github.com/MISP/misp-taxonomies/blob/master/rsit/machinetag.json|
 |MISP domain abuse   | List of tags for labelling DNS names which have been observed in abuse. Partly also deals with a domain's status (i.e. active, suspended, etc.) | partly | partly | Y | https://github.com/MISP/misp-taxonomies/blob/master/domain-abuse/machinetag.json|
+|EU NIS Critical Infrastructure Operators|EU NIS Critical Infrastructure Operators|N|N|Y|https://github.com/MISP/misp-taxonomies/blob/master/eu-marketop-and-publicadmin/machinetag.json|
