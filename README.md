@@ -55,6 +55,7 @@ We only focus on IP addresses or domain names. Hence, we extracted the relevant 
 
 | Name               | Description    | actionable? | automatic classification  |  stable?        | Link           | 
 |:-------------------|:---------------|:-----------:|:--------------------------|:----------------|:---------------|
+| DIT |               | Domain Industry Taxonomy | N | N | Y | https://www.sidn.nl/en/news-and-blogs/you-cant-compare-apples-with-pears |
 | RRDG low content domain| A list of tags for labeling "low content" websites (f.ex. default apache web page) | Y | Y | partly | https://rrdg.centr.org/projects/current-projects/|
 | DHS CIIP           | Dept. of Homeland Security Critical Infrastructure Sectors list | ? | | Y | https://github.com/MISP/misp-taxonomies/blob/master/dhs-ciip-sectors/machinetag.json |
 | RSIT               | Reference Security Incident Taxonomy | partly | | partly | https://github.com/MISP/misp-taxonomies/blob/master/rsit/machinetag.json|
