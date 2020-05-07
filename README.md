@@ -47,5 +47,5 @@ We decided for now to not represent these hierarchies in order to keep it simple
 | Name               | Description    | actionable? | automatic classification  |  stable?        | Link           | 
 |:-------------------|:---------------|:-----------:|:--------------------------|:----------------|:---------------|
 | DHS CIIP           | Dept. of Homeland Security Critical Infrastructure Sectors list | ? | | Y | https://github.com/MISP/misp-taxonomies/blob/master/dhs-ciip-sectors/machinetag.json |
-| RSIT               | Reference Security Incident Taxonomy | partly | | no, usually cleaned up quickly | https://github.com/MISP/misp-taxonomies/blob/master/rsit/machinetag.json|
+| RSIT               | Reference Security Incident Taxonomy | partly | | partly | https://github.com/MISP/misp-taxonomies/blob/master/rsit/machinetag.json|
 |MISP domain abuse   | List of tags for labelling DNS names which have been observed in abuse. Partly also deals with a domain's status (i.e. active, suspended, etc.) | partly | partly | Y | https://github.com/MISP/misp-taxonomies/blob/master/domain-abuse/machinetag.json|
