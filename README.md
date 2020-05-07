@@ -41,6 +41,10 @@ Sometimes taxonomy A is an abstraction of taxonomy B. Example: B==list of indust
 We decided for now to not represent these hierarchies in order to keep it simple.
 
 
+# Implementation
+
+Please see the [implementation](implementation.md) document.
+
   
 # The list
 
